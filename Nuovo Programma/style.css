@@ -1,0 +1,95 @@
+body {
+    background-color: black;
+}
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#div1 {
+    padding: 200px 400px;
+}
+
+h1:hover {
+    color: black;
+    transition: color 1.5s;
+}
+
+h2 {
+    color: black;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}
+
+.topnav {
+    background-color: white;
+    overflow: hidden;
+    padding-left: 50px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.nav a {
+    display: block;
+    float: left;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 14px 16px;
+    text-align: center;
+    color: black;
+}
+
+.nav a:hover {
+    background-color: black;
+    color: white;
+    transition: 0.2s;
+}
+
+.nav a.active {
+    background-color: black;
+    color: white;
+}
+
+
+
+/*
+.container {
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+    transition: 1s;
+    color: black;
+  } 
+   
+  .change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+    transform: rotate(-45deg) translate(-9px, 6px) ;
+  }
+  
+  .change .bar2 {
+    opacity: 0;
+  }
+  
+  .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+    transform: rotate(45deg) translate(-8px, -8px) ;
+  } */
